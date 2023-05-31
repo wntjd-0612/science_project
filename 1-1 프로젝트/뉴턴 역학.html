@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link type="text/css" rel="stylesheet" href="./style.css">
+    <title>뉴턴의 운동법칙</title>
+    <style>
+        #Inertia{
+            border: 1px solid black;
+            background-color: gainsboro;
+            width: 250px;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./물리_home.html">물리위키</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="./물리_역사.html">역사</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  분류
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="./고전역학.html">고전역학</a></li>
+                  <li><a class="dropdown-item" href="./열역학.html">열역학</a></li>
+                  <li><a class="dropdown-item" href="./전자기학.html">전자기학</a></li>
+                  <li><a class="dropdown-item" href="./현대물리학.html">현대 물리학</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled">Disabled</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="검색" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">검색</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <h2>1,개요</h2>
+    <hr>
+    <h4><b>라틴어: Leges motus Newtoni<br>
+    영어: Newton's laws of motion</b><br></h4>
+    아이작 뉴턴이 프린키피아에 기록한 운동 법칙으로서 고전역학을 접한다면 반드시 배우는 내용이다.<br>
+    고전역학에서 이 법칙은 가장 기본이 되는 법칙이며, 다른 공식에서 유도되지 않는다. 또한 고전역학의 절대적인 가정같은 것이기 때문에 의문을 가져서는 안 된다. 왜냐하면 엄밀히 말하면 틀렸기 때문(이유는 후술)
+    <hr>
+    <h2>2,목록</h2>
+    <hr>
+    <h3>제1법칙(Lex prima): 관성의 법칙</h3>
+    <hr>
+    <img src="./뉴턴 역학_관성의 법칙.png">
+    <h5>관성의 법칙은 외부에서 힘이 가해지지 않는 한 모든 물체는 자기의 상태를 그대로 유지하려고 하는 것을 말한다.</h5>
+    <br>
+    <p>즉, 정지한 물체는 영원히 정지한 채로 있으려고 하며 운동하던 물체는 등속 직선운동을 계속 하려고 한다.</p>
+    <hr>
+    <h3>제2법칙(Lex secunda): 가속도의 법칙</h3>
+    <img src="./뉴턴 역학_가속도의 법칙.png">
+    <hr>
+    <h5>가속도의 법칙은 힘이 가해졌을 때 물체가 얻는 가속도는 가해지는 힘에 비례하고 물체의 질량에 반비례하는 것이다.</h5>
+    <br>
+    <p>물체의 운동을 변화시키는 원인을 힘이라 부른다. 따라서 속도의 변화를 나타내는 가속도는 힘에 비례하게 된다. 비례상수는 물체마다 다른데 같은 힘을 받더라도 질량이 클수록 변화가 적을 것이므로 가속도가 작을 것이다.
+      간단한 식으로 나타내면 F(힘)=M(질량)*A(가속도)가 나온다. 요기서 힘의 단위는 N(뉴턴)이다.
+    </p>
+    <hr>
+    <h3>제3법칙(Lex tertia): 작용 반작용의 법칙</h3>
+    <hr>
+    <img src="./뉴턴 역학_작용 반작용의 법칙.png">
+    <hr>
+    <p>A물체가 B물체에게 힘을 가하면(작용) B물체 역시 A물체에게 똑같은 크기의 힘을 가한다는 것이다(반작용).</p>
+    
+</body>
+</html>
